@@ -13,4 +13,4 @@ FROM `instructor` ");
         throw $e;
     }
 }
->
+?>
