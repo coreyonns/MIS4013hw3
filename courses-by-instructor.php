@@ -4,7 +4,7 @@ require_once("model-courses-by-instructor.php");
 
 $pageTitle="Courses by Instructor";
 include "view-header.php";
-$courses= selectCoursesByInstructors($_GET['id']);
+$courses= selectCoursesByInstructor($_GET['id']);
 include "view-courses-by-instructor.php";
 include "view-footer.php";
 ?>
