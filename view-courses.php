@@ -14,7 +14,6 @@ while ($course = $courses->fetch_assoc()){
   ?>
  <tr>
    <td><?php echo $course['course_id']; ?></td>
-   <td><?php echo $course['course_name']; ?></td>
    <td><?php echo $course['course_number']; ?></td>
  </tr>
   <?php
